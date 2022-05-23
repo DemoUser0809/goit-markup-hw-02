@@ -32,11 +32,6 @@ body {
     text-decoration: none;
 }
 
-.logo-black:hover,
-.logo-black:focus {
-    text-decoration: underline;
-}
-
 .accent {
     color: var(--accent-color);
 }
@@ -71,6 +66,10 @@ body {
     color: var(--accent-color);
 }
 
+ul.list {
+    list-style: none;
+}
+
 /* Main */
 /* Hero */
 
@@ -83,6 +82,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     color: var(--primary-white-color);
+    text-transform: uppercase;
 }
 
 .hero .button {
@@ -90,6 +90,9 @@ body {
     line-height: 1.88;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 32px;
 
     cursor: pointer;
 }
@@ -106,6 +109,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
+    text-transform: uppercase;
 }
 
 .features-description {
@@ -154,11 +158,6 @@ body {
     text-decoration: none;
 }
 
-.logo-white:hover,
-.logo-white:focus {
-    text-decoration: underline;
-}
-
 .address .link {
     font-size: 14px;
     line-height: 1.7;
@@ -183,8 +182,10 @@ body {
     font-weight: 500;
     line-height: 1.6;
     color: var(--secondary-text-color);
-
     background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
 
     cursor: pointer;
 }
